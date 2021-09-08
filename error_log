@@ -1,0 +1,5 @@
+[02-Nov-2020 10:42:51 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/gcacqpl1ql7t/vyaparbill.com/application/library/Common.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gcacqpl1ql7t/vyaparbill.com/application/controllers/Bill.php on line 430
+[05-Nov-2020 10:14:10 UTC] PHP Fatal error:  Cannot redeclare Bill::edit_proforma_bill() in /home/gcacqpl1ql7t/vyaparbill.com/application/controllers/Bill.php on line 225
+[05-Nov-2020 10:14:11 UTC] PHP Fatal error:  Cannot redeclare Bill::edit_proforma_bill() in /home/gcacqpl1ql7t/vyaparbill.com/application/controllers/Bill.php on line 225
+[05-Nov-2020 10:28:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/gcacqpl1ql7t/vyaparbill.com/application/third_party/mpdf/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gcacqpl1ql7t/vyaparbill.com/application/controllers/Bill.php on line 600
+[03-Dec-2020 12:20:20 UTC] PHP Fatal error:  Can't use method return value in write context in /home/gcacqpl1ql7t/vyaparbill.com/application/controllers/Bill.php on line 286

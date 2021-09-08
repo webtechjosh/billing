@@ -1,0 +1,260 @@
+    .partiCularTable input{
+      width: 100%;
+    }
+    .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+      background-color: green;
+      color: #fff;
+  }
+  .partyList ul li{
+    list-style-type: none;
+  }
+
+  .previewLink a{
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .previewModal {
+    text-align: center;
+  }
+
+  p   {
+    margin: 5px;
+}
+
+#partyname{
+  border: 1px solid skyblue;
+  padding-left: 0px;
+  border-radius: 3px;
+}
+#partyname li{
+  list-style-type: none;
+  border-bottom: 1px solid skyblue;
+  width: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#partyname li:hover{
+  list-style-type: none;
+  border-bottom: 1px solid skyblue;
+  width: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+  background: skyblue;
+}
+
+
+.invoiceBody{
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+table  {  
+    border: 1px solid #333;
+    text-align: left;
+    font-weight: bold;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th {
+    padding-left: 5px; 
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+td {  
+    border: 1px solid #333;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 5px;
+}
+.printLogo {
+    width: 100%;
+}
+
+.printLogo img{
+    max-width: 210px;
+    max-height: 100px;
+    padding: 5px;
+}
+.center{
+    text-align: center;
+}
+.header h2{
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0px;
+  margin: 5px;
+}
+.header p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.header h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sign{
+    margin-top: 20px;
+    text-align: center;
+}
+.printButton{
+    margin: 30px 50px 50px;
+    text-align: center;
+}
+.itemtable tbody tr td{
+    font-size: 15px;               
+}
+
+tbody td {
+    border-bottom-width: 0;
+    font-size: 16px;
+}
+
+#itembody td{
+    padding: 1px;
+}
+
+.partiCularTable td{
+  padding: 0px;
+}
+.partiCularTable td input{
+  padding: 5px;
+}
+.stampimg{
+  text-align: center;
+}
+.stampimg img{
+  max-width: 90%;
+  max-height: 100px;
+}
+.declarationHeading h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 676px){
+  .login-box, .register-box {
+    margin-top: .5rem;
+    width: 100%;
+  }
+  .invoiceBody {
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 0px grey;
+  }
+  .printLogo img {
+    max-width: 100px;
+    max-height: 60px;
+    padding: 2px;
+}
+.header h2{
+  font-size: 16px;
+  padding: 0px;
+  margin: 2px;
+}
+.header h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 14px;
+}
+.header p {
+  font-size: 10px;
+}
+p{
+  margin: 1px;
+  font-size: 10px;
+}
+.sign {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+th {
+  padding-left: 2px;
+  border: 1px solid #333;
+  font-size: 11px;
+}
+
+.partiCularTable td input{
+  padding: 1px;
+}
+.itemtable tbody tr td {
+  font-size: 12px;
+}
+.stampimg{
+  text-align: center;
+}
+.stampimg img{
+  max-width: 90%;
+  max-height: 60px;
+}
+.declarationHeading h5{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+}
+
+@media print {
+p{
+    margin: 3px;
+}
+table  {  
+    border: 1px solid #333;
+    text-align: left;
+    font-weight: bold;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    padding-left: 5px; 
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+td {  
+    border: 1px solid #333;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 5px;
+}
+.printLogo {
+    width: 200px;
+    text-align: center;
+}
+
+.printLogo img{
+    max-width: 180px;
+    max-height: 80px;
+    padding: 5px;
+}
+.center{
+    text-align: center;
+}
+.header h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 8px;
+}
+.header p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.header h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    
+}
+
+
+
+
